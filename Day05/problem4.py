@@ -28,5 +28,8 @@ for i in money_type:
     count = count + M // i  # 해당 몫은 count에 더해주고,
     M = M % i  # 나머지는, M으로 다시 부여
 
+if M > 0:
+    count = -1
+
 print(count)
 
